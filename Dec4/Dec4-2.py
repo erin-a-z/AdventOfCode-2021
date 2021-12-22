@@ -1,4 +1,4 @@
-with open('Dec4/Dec4-data.txt') as f:
+with open('/Users/user1/Documents/Development/Python/Hydrogen/AdventOfCode 2021/Dec4/Dec4-data.txt') as f:
     lines = f.read().splitlines()
 
 numOfLines = len(lines)
