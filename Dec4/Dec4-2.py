@@ -10,8 +10,7 @@ gridCount = 0
 grids = []
 for i in range(numOfLines):
     if lines[i] == "":
-        grid = [[int(x) for x in lines[i + 1].split(" ") if x], [int(x) for x in lines[i + 2].split(" ") if x], [int(x)
-                                                                                                                 for x in lines[i + 3].split(" ") if x], [int(x) for x in lines[i + 4].split(" ") if x], [int(x) for x in lines[i + 5].split(" ") if x]]
+        grid = [[int(x) for x in lines[i + 1].split(" ") if x], [int(x) for x in lines[i + 2].split(" ") if x], [int(x) for x in lines[i + 3].split(" ") if x], [int(x) for x in lines[i + 4].split(" ") if x], [int(x) for x in lines[i + 5].split(" ") if x]]
         gridCount += 1
         grids.append(grid)
 
